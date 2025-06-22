@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@font-face {
+  font-family: 'ErotiqueTrial-Regular'; 
+  src: url('fonts/ErotiqueTrial-Regular.ttf') format('ttf'), 
+       url('fonts/ErotiqueTrial-Medium.ttf') format('ttf'); 
+  font-weight: normal;
+}
+
+body {
+    margin: 0;
+    background: #fff;
+}
+
+.sale-banner {
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    font-family: 'Georgia', serif;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+           font-family: 'Georgia', serif;
+}
+
+.banner-side {
+    text-align: center;
+    margin: 10px;
+           font-family: 'Georgia', serif;
+}
+
+.discount {
+    font-size: 38px;
+    font-weight: bold;
+           font-family: 'Georgia', serif;
+}
+
+.subtext {
+    font-size: 20px;
+           font-family: 'Georgia', serif;
+}
+
+.banner-center {
+    font-size: 55px;
+    font-weight: 300;
+    letter-spacing: 5px;
+     font-family: 'Georgia';
+}
+
+.banner-preview{
+ font-family: 'Georgia', serif;
+ font-size: 20px;
+ font-weight: 400;
+ letter-spacing: 2px;
+ text-align:center;
+ margin-top:20px;
+ padding:40px 0;
+ color: #fff;
+ border-radius:10px ;
+
+}
+/* Admin form */
+form {
+    border-radius: 10px;
+    max-width: 600px;
+    font-family: 'Georgia', serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+@media (max-width: 568px) {
+ .banner-center {
+    font-size: 35px;
+
+}
+.subtext {
+    font-size: 14px;
+
+}
+.discount {
+    font-size: 17px;
+   
+}
+.banner-side {
+ 
+    margin: 0px;
+ 
+}
+}
+
