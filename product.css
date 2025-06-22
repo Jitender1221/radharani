@@ -1,0 +1,196 @@
+.color-box {
+transition: all 0.3s ease;
+}
+
+.colorBox {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 10px;
+
+align-items: center;
+}
+
+input[type="radio"]:checked+.color-box {
+border: 5px solid #ffffff !important;
+box-shadow: 0 0 10px 4px rgb(7 7 7 / 0%);
+transform: scale(1.1);
+}
+
+.label-title {
+font-weight: 600;
+font-size: 16px;
+margin-bottom: 10px;
+display: inline-block;
+}
+
+.size-box-group {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-top: 10px;
+}
+
+.size-btn {
+display: inline-block;
+padding: 10px 16px;
+border: 1px solid #ccc;
+border-radius: 6px;
+cursor: pointer;
+background-color: #fff;
+color: #333;
+font-size: 13px;
+transition: all 0.3s ease;
+user-select: none;
+}
+
+.size-btn:hover {
+border-color: #e91e63;
+color: #e91e63;
+}
+
+.size-btn input[type="radio"]:checked+span,
+.size-btn input[type="radio"]:checked {
+border-color: #000;
+background-color: #000;
+color: #fff;
+}
+
+.size-btn.active {
+background-color: #000;
+color: #fff;
+border-color: #000;
+}
+
+/* From Uiverse.io by Shell0110 */
+.faq-button {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+border: none;
+
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.151);
+position: relative;
+}
+
+.faq-button:hover {
+opacity: 1;
+}
+.faq-button svg {
+height: 1.5em;
+fill: white;
+}
+
+@keyframes jello-vertical {
+0% {
+transform: scale3d(1, 1, 1);
+}
+30% {
+transform: scale3d(0.75, 1.25, 1);
+}
+40% {
+transform: scale3d(1.25, 0.75, 1);
+}
+50% {
+transform: scale3d(0.85, 1.15, 1);
+}
+65% {
+transform: scale3d(1.05, 0.95, 1);
+}
+75% {
+transform: scale3d(0.95, 1.05, 1);
+}
+100% {
+transform: scale3d(1, 1, 1);
+}
+}
+
+.tooltip {
+position: absolute;
+top: 37px;
+opacity: 1;
+background-color: #ffffff;
+
+color: rgb(10, 10, 10);
+padding: 5px 10px;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+transition-duration: 0.4s;
+pointer-events: none;
+letter-spacing: 0.5px;
+width: 257px;
+height: fit-content;
+}
+
+.tooltip::before {
+position: absolute;
+content: "";
+width: 10px;
+height: 10px;
+background-color: #ffffff;
+background-size: 1000%;
+background-position: center;
+transform: rotate(226deg);
+bottom: 84%;
+transition-duration: 0.3s;
+}
+
+.faq-button:hover .tooltip {
+top: 40px;
+opacity: 1;
+
+}
+
+.faq-tooltip {
+display: none;
+position: absolute;
+top: 30px;
+right: 0;
+width: 280px;
+background-color: #fff;
+border: 1px solid #ddd;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+padding: 15px;
+font-size: 13px;
+z-index: 999;
+border-radius: 5px;
+}
+
+.faq-tooltip p {
+margin: 5px 0;
+}
+
+.faq-tooltip .highlight {
+color: green;
+font-weight: bold;
+}
+
+.faq-button:hover .faq-tooltip {
+display: block;
+}
+
+.faq-icon {
+width: 20px;
+height: 20px;
+}
+
+.faq-tooltip-title {
+font-weight: bold;
+margin-bottom: 10px;
+border-bottom: 1px solid #eee;
+padding-bottom: 5px;
+}
+.product .p-price span
+
+{
+font-size: 13px;
+display: flex;
+
+gap: 10px;
+}

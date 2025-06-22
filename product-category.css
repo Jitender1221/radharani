@@ -1,0 +1,161 @@
+
+@media (max-width: 600px) {
+  .container1 {
+   display: none;
+  } 
+  
+    .container2 {
+        display: grid;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        gap: 10px;
+        padding: 20px;
+        /* grid-auto-columns: auto; */
+        /* grid-auto-rows: auto; */
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 100px 100px; */
+    }
+}
+
+
+.form{
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+
+.container1 {
+    max-width: 100em;
+    position: relative;
+    background: #fff;
+    padding: 20px;
+}
+
+
+.size-box {
+    display: inline-flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.btn {
+    background: #8a6a45;
+    color: #fff;
+}
+.color-filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.cardLatestCat {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: 0.3s;
+  width: auto;
+ 
+}
+
+.cardLatestCat:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+.videoCat-container-latest {
+  position: relative;
+  padding-top: 100%;
+  background: #f8f8f8;
+}
+
+.videoCat {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #dc3545;
+  color: white;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.views {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.icons {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.icons i {
+  margin-left: 10px;
+  color: #fffbfb;
+  font-size: 16px;
+}
+
+.product-details {
+  padding: 12px;
+}
+
+.product-details h4 a {
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.price .original {
+  color: #888;
+  margin-left: 5px;
+}
+
+.out-of-stock .inner {
+  margin-top: 10px;
+  background: #dc3545;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.rating i {
+  color: #ffc107;
+}
+
+.buy-btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 6px 10px;
+  background: #28a745;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+}

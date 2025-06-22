@@ -1,0 +1,36 @@
+.offer-banner {
+  background: #FAF1D7;
+  color: #8a6a45;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid #8A6A45;
+}
+
+
+
+
+.offer-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.product-link{
+  text-decoration: none;
+  color: black;
+  
+}
